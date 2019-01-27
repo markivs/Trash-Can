@@ -33,8 +33,8 @@ void turnRight(const int amotor, int degrees)
 }
 void turnLeft(const int amotor, int degrees)
 {
-		moveMotorTarget(amotor, -degrees, -10);
-		waitUntilMotorStop(amotor);
+	moveMotorTarget(amotor, -degrees, -10);
+	waitUntilMotorStop(amotor);
 }
 void turnVehicleRight(int degrees)
 {
